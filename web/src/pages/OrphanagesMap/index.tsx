@@ -4,11 +4,13 @@ import { Link, useHistory } from 'react-router-dom';
 import { FiPlus, FiArrowRight, FiArrowLeft } from 'react-icons/fi';
 import { Map, TileLayer, Marker, Popup } from 'react-leaflet';
 
+import { PageMap, CreateOrphanage } from './styles';
+
 import mapIcon from '../../utils/mapIcon';
 import mapMarkerImg from '../../images/map-marker.svg';
 import api from '../../services/api';
 
-import './styles.css';
+
 
 interface Orphanage {
   id: number;
@@ -17,7 +19,7 @@ interface Orphanage {
   name: string;
 }
 
-function OrphanagesMap() {
+const  OrphanagesMap: React.FC = () => {
   const [orphanages, setOrphanages] = useState<Orphanage[]>([]);
 
   useEffect(() => {
@@ -33,7 +35,7 @@ function OrphanagesMap() {
   };
 
   return (
-    <div id="page-map">
+    <PageMap>
       <aside>
         <header>
           <img src={mapMarkerImg} alt="Marker" />
@@ -78,10 +80,10 @@ function OrphanagesMap() {
         ))}
       </Map>
 
-      <Link to="/orphanages/create" className="create-orphanage">
+      <CreateOrphanage to="/orphanages/create" >
         <FiPlus />
-      </Link>
-    </div>
+      </CreateOrphanage>
+    </PageMap>
   );
 }
 

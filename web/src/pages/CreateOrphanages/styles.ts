@@ -1,9 +1,12 @@
-#page-create-orphanage {
-  display: flex;
+import styled from 'styled-components';
+
+export const Container = styled.div`
+  main {
+  flex: 1;
 }
 
-#page-create-orphanage main {
-  flex: 1;
+form.create-orphanage {
+  display: flex;
 }
 
 form.create-orphanage-form {
@@ -101,7 +104,7 @@ form.create-orphanage-form .input-block .images-container img {
   height: 96px;
   object-fit: cover;
   border-radius: 20px;
-  
+
 }
 
 form.create-orphanage-form .input-block .images-container .new-image {
@@ -162,7 +165,7 @@ form.create-orphanage-form button.confirm-button {
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
 
   transition: background-color 0.2s;
 }
@@ -174,3 +177,4 @@ form.create-orphanage-form button.confirm-button svg {
 form.create-orphanage-form button.confirm-button:hover {
   background: #36CF82;
 }
+`

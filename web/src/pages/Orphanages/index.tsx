@@ -4,9 +4,11 @@ import { FiClock, FiInfo } from 'react-icons/fi';
 import { Map, Marker, TileLayer } from 'react-leaflet';
 import { useParams } from 'react-router-dom';
 
-import Sidebar from '../../components/index';
+import { Container, OrphanageDetails, Images, OrphanageDetailsContent, MapContainer, OpenDetails } from './styles';
+
+import Sidebar from '../../components/Sidebar/index';
 import mapIcon from '../../utils/mapIcon';
-import './styles.css';
+
 import api from '../../services/api';
 
 interface Orphanage {
@@ -43,17 +45,17 @@ export default function Orphanage() {
   }
 
   return (
-    <div id="page-orphanage">
+    <Container>
       <Sidebar />
 
       <main>
-        <div className="orphanage-details">
+        <OrphanageDetails>
           <img
             src={orphanage.images[activeImageIndex].url}
             alt={orphanage.name}
           />
 
-          <div className="images">
+          <Images>
             {orphanage.images.map((image, index) => (
               <button
                 key={image.id}
@@ -66,13 +68,13 @@ export default function Orphanage() {
                 <img src={image.url} alt={orphanage.name} />
               </button>
             ))}
-          </div>
+          </Images>
 
-          <div className="orphanage-details-content">
+          <OrphanageDetailsContent>
             <h1>{orphanage.name}</h1>
             <p>{orphanage.about}</p>
 
-            <div className="map-container">
+            <MapContainer>
               <Map
                 center={[orphanage.latitude, orphanage.longitude]}
                 zoom={16}
@@ -102,14 +104,14 @@ export default function Orphanage() {
                   Ver rotas no Google Maps
                 </a>
               </footer>
-            </div>
+            </MapContainer>
 
             <hr />
 
             <h2>{orphanage.instructions}</h2>
             <p>Venha visitar.</p>
 
-            <div className="open-details">
+            <OpenDetails>
               <div className="hour">
                 <FiClock size={32} color="#15B6D6" />
                 Segunda à Sexta
@@ -131,15 +133,15 @@ export default function Orphanage() {
                   fim de semana
                 </div>
               )}
-            </div>
+            </OpenDetails>
 
             {/* <button type="button" className="contact-button">
               <FaWhatsapp size={20} color="#FFF" />
               Entrar em contato
             </button> */}
-          </div>
-        </div>
+          </OrphanageDetailsContent>
+        </OrphanageDetails>
       </main>
-    </div>
+    </Container>
   );
 }
