@@ -1,0 +1,9 @@
+.transition-enter {
+  transform: translateX(100vh);
+  z-index: 1;
+}
+
+.transition-enter.transition-enter-active {
+  transform: translateX(0vh);
+  transition: transform 600ms ease-out ;
+}
