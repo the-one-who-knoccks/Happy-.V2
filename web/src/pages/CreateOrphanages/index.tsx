@@ -6,11 +6,11 @@ import { useHistory } from 'react-router-dom';
 
 import { FiPlus } from 'react-icons/fi';
 
-import Sidebar from '../../components/index';
+import Sidebar from '../../components/Sidebar';
 import mapIcon from '../../utils/mapIcon';
 import api from '../../services/api';
 
-import './styles.css';
+import { Container } from './styles';
 
 export default function CreateOrphanage() {
   const history = useHistory();
@@ -77,7 +77,7 @@ export default function CreateOrphanage() {
   };
 
   return (
-    <div id="page-create-orphanage">
+    <Container>
       <Sidebar />
       <main>
         <form onSubmit={handleSubmit} className="create-orphanage-form">
@@ -195,7 +195,7 @@ export default function CreateOrphanage() {
           </button>
         </form>
       </main>
-    </div>
+    </Container>
   );
 }
 

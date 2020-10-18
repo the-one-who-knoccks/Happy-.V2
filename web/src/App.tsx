@@ -3,13 +3,16 @@ import { BrowserRouter } from 'react-router-dom';
 
 import Routes from './routes';
 
-import './styles/global.css';
+import GlobalStyle from './styles/global';
+
 import 'leaflet/dist/leaflet.css';
 import './styles/animation.css';
 
 function App() {
   return (
+
     <BrowserRouter>
+      <GlobalStyle />
       <Routes />
     </BrowserRouter>
   );
