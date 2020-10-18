@@ -5,8 +5,7 @@ import Routes from './routes';
 
 import './styles/global.css';
 import 'leaflet/dist/leaflet.css';
-import "./styles/animation.css";
-
+import './styles/animation.css';
 
 function App() {
   return (
