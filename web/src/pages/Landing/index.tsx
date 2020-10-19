@@ -20,7 +20,7 @@ const Landing: React.FC = () => {
           <span>Minas Gerais</span>
         </Location>
 
-        <EnterApp to="/app">
+        <EnterApp to="/login">
           <FiArrowRight size={26} color="rgba(0,0,0, 0.6)" />
         </EnterApp>
       </ContentWrapper>

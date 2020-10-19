@@ -38,6 +38,7 @@ export const Form = styled(UnformForm)`
   > h1 {
     color: #5C8599;
     margin-bottom: 15px;
+    font-family: 'Nunito';
   }
 `;
 
