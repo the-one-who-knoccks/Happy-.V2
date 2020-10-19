@@ -1,8 +1,9 @@
 import React, { useRef } from 'react';
 import { FormHandles } from '@unform/core';
 import { Link } from 'react-router-dom';
-import { Container, BackgroundImage, ContentWrapper, Form, Options, BottomItems } from './styles';
-import happyLogo from '../../images/logo_signin.svg'
+import { Container, BackgroundImage, ContentWrapper, Form, Options, BottomItems, Location } from './styles';
+import happyLogo from '../../images/landing.svg';
+import logoImg from '../../images/logo.svg';
 
 import Input from '../../components/Input/index';
 import Button from '../../components/Button/index';
@@ -14,12 +15,21 @@ const Login: React.FC = () => {
   return (
     <Container>
       <BackgroundImage>
-        <img src={happyLogo} alt="happy" />
+      <img src={logoImg} alt="Happy" />
+        <main>
+          <h1>Leve felicidade para o mundo</h1>
+          <p>Visite orfanatos e mude o dia de muitas crianças. </p>
+        </main>
+        <Location>
+          <strong>Volta Grande</strong>
+          <span>Minas Gerais</span>
+        </Location>
       </BackgroundImage>
       <ContentWrapper>
+
         <Form ref={formRef} onSubmit={() => { }}>
           <h1>Fazer login</h1>
-          <Input name="email" label="email" type="email" />
+          <Input name="email" label="E-mail"  type="email" />
           <Input name="password" label="Senha" type="password" />
           <Options>
             <CheckBox name="rememberMe" type="checkbox" label="Lembrar-me" />

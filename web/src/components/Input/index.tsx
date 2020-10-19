@@ -1,7 +1,7 @@
 import React, { InputHTMLAttributes, useRef, useState, useCallback, useEffect } from 'react';
 import { useField } from '@unform/core';
-import { Container } from './styles';
-// import { FiEye, FiEyeOff } from 'react-icons/fi';
+import { Container, ToggleView, ErrorMessage } from './styles';
+import { FiEye, FiEyeOff } from 'react-icons/fi';
 
 interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
   label: string;
@@ -46,14 +46,29 @@ const Input: React.FC<InputProps> = ({
     setIsHovered(true);
   }, []);
 
+  const handleStopHoveringInput = useCallback(() => {
+    setIsHovered(false);
+  }, []);
+
   const handleInputFocus = useCallback(() => {
     setIsFocused(true);
   }, []);
 
+  const handleInputBlur = useCallback(() => {
+    setIsFocused(false);
+
+    setIsFilled(!!inputRef.current?.value);
+  }, []);
+
+  const handleToggleView = useCallback(() => {
+    setIsVisible(state => !state);
+  }, []);
+
+
   return (
     <Container
       onMouseOver={handleHoverInput}
-      onMouseLeave={() =>{}}
+      onMouseLeave={handleStopHoveringInput}
       htmlFor={name}
       type={type}
       isFilled={isFilled}
@@ -68,12 +83,27 @@ const Input: React.FC<InputProps> = ({
           id={name}
           ref={inputRef}
           defaultValue={propDefaultValue || defaultValue}
-          onBlur={() => {}}
-          onFocus={() => {}}
+          onBlur={handleInputBlur}
+          onFocus={handleInputFocus}
           autoComplete="off"
-
+          type={
+            type === 'password'
+              ? isVisible
+                ? 'text'
+                : 'password'
+              : type || 'text'
+          }
+          {...rest}
         />
+        {type === 'password' && (
+          <ToggleView type="button" onClick={handleToggleView}>
+            {isVisible ? <FiEyeOff size={22} /> : <FiEye size={22} />}
+          </ToggleView>
+        )}
       </div>
+      <ErrorMessage hasError={!!error} isHovered={isHovered}>
+        <div>{error}</div>
+      </ErrorMessage>
     </Container>
   );
 };

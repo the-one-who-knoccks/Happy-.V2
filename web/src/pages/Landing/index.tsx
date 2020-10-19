@@ -3,7 +3,7 @@ import React from 'react';
 import { FiArrowRight } from 'react-icons/fi';
 import logoImg from '../../images/logo.svg';
 
-import { PageLanding, ContentWrapper, Location, EnterApp } from './styles';
+import { PageLanding, ContentWrapper, Location , EnterApp } from './styles';
 
 const Landing: React.FC = () => {
   return (
