@@ -6,6 +6,7 @@ import Landing from '../src/pages/Landing/index';
 import OrphanagesMap from '../src/pages/OrphanagesMap/index';
 import Orphanages from '../src/pages/Orphanages/index';
 import CreateOrphanages from '../src/pages/CreateOrphanages/index';
+import Login from '../src/pages/Login/index';
 
 
 
@@ -17,7 +18,8 @@ function Routes() {
     <TransitionGroup>
       <CSSTransition key={location.key} classNames="transition" timeout={600}>
         <Switch location={location}>
-          <Route path="/" exact component={Landing} />
+          <Route path="/" exact component={Login} />
+          <Route path="/landing" exact component={Landing} />
           <Route path="/app" component={OrphanagesMap} />
           <Route path="/orphanages/create" component={CreateOrphanages} />
           <Route path="/orphanages/:id" component={Orphanages} />
