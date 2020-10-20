@@ -35,11 +35,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 <br/>
 
 ### Criação de usuário no banco de dados ✅ 
+### Autenticação do usuário e hash de senha ✅
 ### Tela de Cadastro versão web ✅ 
 ### Tela de login versão web ✅ 
 ### Tela de recuperação de Senha
-### Autenticação do usuário
-### Cadastro de orfanatos
+### Cadastro de orfanatos pendentes
 
 <br/>
 
