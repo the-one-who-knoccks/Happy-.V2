@@ -48,8 +48,8 @@ export const Container = styled.label<ContainerProps>`
   width: 350px;
   height: 72px;
   padding: 4px 12px;
-  border: 1px solid ${props => props.theme.linesInWhite};
-  background: ${props => props.theme.shape2};
+  border: 1px solid;
+  background: #D3E2E5;
 
   ${props =>
     props.hasError &&
@@ -93,7 +93,7 @@ export const Container = styled.label<ContainerProps>`
     top: 20%;
     width: 2px;
     height: 60%;
-    background: #7159c1;
+    background: #37C77F;
     transform: scale(0, 0);
     transition: transform 0.3s ease-out;
 
@@ -145,9 +145,10 @@ export const ToggleView = styled.button`
   width: 24px;
   height: 24px;
   margin-right: 5px;
+  outline: none;
 
   > svg {
-    color: #7159c1;
+    color: #37C77F;
   }
 `;
 
