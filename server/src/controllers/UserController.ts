@@ -3,18 +3,22 @@ import { Request, Response } from 'express';
 import { getRepository } from 'typeorm';
 
 import * as Yup from 'yup';
+import PasswordHash from '../config/PasswordHash';
+
 import User from '../models/User';
 
 export default {
   async create(req: Request, res: Response) {
     const { name, email, password, whatsapp } = req.body;
 
+    const hashedPassword: string = await PasswordHash.hash(password);
+
     const usersRepository = getRepository(User);
 
     const data = {
       name,
       email,
-      password,
+      password: hashedPassword,
       whatsapp,
     };
 
