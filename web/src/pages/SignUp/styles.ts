@@ -89,12 +89,18 @@ export const Form = styled(UnformForm)`
     margin-bottom: 15px;
     font-family: 'Nunito';
   }
+  > p {
+    color: #5c8599;
+    margin-bottom: 15px;
+    font-family: 'Nunito'
+  }
 `;
 
-export const Options = styled.div`
+/* export const Options = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+
   margin-top: 25px;
   color: #8fa7b2;
   font-size: 14px;
@@ -104,7 +110,7 @@ export const Options = styled.div`
     font-size: 14px;
     font-weight: bold;
   }
-`;
+`; */
 
 export const BottomItems = styled.div`
   display: flex;
