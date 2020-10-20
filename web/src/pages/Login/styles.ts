@@ -114,7 +114,7 @@ export const BottomItems = styled.div`
   width: 50%;
 
   > p {
-    color: #000;
+    color: #8fa7b2;
     width: fit-content;
 
     > a {
@@ -130,7 +130,7 @@ export const BottomItems = styled.div`
   }
 
   > span {
-    color: #000;
+    color: #ccc;
     font-size: 14px;
   }
 `;
