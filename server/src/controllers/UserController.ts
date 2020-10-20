@@ -22,7 +22,7 @@ export default {
       name: Yup.string().required(),
       email: Yup.string().required(),
       password: Yup.string().required().min(6),
-      whatsapp: Yup.string().required(),
+      whatsapp: Yup.string().required().max(11),
     });
 
     await schema.validate(data, {
