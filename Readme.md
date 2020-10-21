@@ -2,7 +2,7 @@
  
 
 <h1 align="center">
-  <img alt="Fastfeet" title="Fastfeet" src="https://ik.imagekit.io/hld13bjzb1/logo_blDamrxsf.svg" width="300px" />
+  <img alt="Happy" title="Happy" src="https://ik.imagekit.io/hld13bjzb1/logo_blDamrxsf.svg" width="300px" />
 </h1>      
 
 <p align="center">
@@ -33,19 +33,15 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 👷 Melhorias (Em andamento) 
 
-
+### Criação de usuário no banco de dados ✅ 
+### Autenticação do usuário e hash de senha ✅
+### Tela de Cadastro versão web ✅ 
+### Tela de login versão web ✅ 
+### Tela de recuperação de Senha 
+### Cadastro de orfanatos pendentes
 
 <br/>
 
-<div>
-  <img src="/preview/happy-preview.gif" alt="Happy Demo" height="485">
-</div>
-<br/>
-
-<div>
-  <img src="preview/Captura de tela de 2020-10-15 21-48-54.png" alt="Happy Demo" height="425">
-</div>
-<br/>
 
 ## Para testar a aplicação:
 
