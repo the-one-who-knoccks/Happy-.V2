@@ -21,6 +21,12 @@ export const BackgroundImage = styled.div`
   background-size: contain;
   background-position: 50rem;
 
+  > .logoimg {
+    margin-bottom: 550px;
+    margin-left: 50px;
+
+  }
+
   main {
     max-width: 350px;
     animation: mainAnimation 5s linear 0s infinite alternate;

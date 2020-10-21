@@ -72,7 +72,7 @@ const SignUp: React.FC = () => {
   return (
     <Container>
       <BackgroundImage>
-        <img src={logoImg} alt="Happy" />
+      <img src={logoImg} className="logoimg" alt="Happy" />
         <main>
           <h1>Leve felicidade para o mundo</h1>
           <p>Visite orfanatos e mude o dia de muitas crianças. </p>
