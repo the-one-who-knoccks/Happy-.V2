@@ -33,12 +33,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 👷 Melhorias (Em andamento) 
 
-#### Criação de usuário no banco de dados ✅ 
-#### Tela de Cadastro versão web ✅ 
-#### Tela de login versão web ✅ 
-#### Tela de recuperação de Senha
-#### Autenticação do usuário
-#### Cadastro de orfanatos
 
 <br/>
 
