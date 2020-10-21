@@ -38,7 +38,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ### Autenticação do usuário e hash de senha ✅
 ### Tela de Cadastro versão web ✅ 
 ### Tela de login versão web ✅ 
-### Tela de recuperação de Senha
+### Tela de recuperação de Senha 
 ### Cadastro de orfanatos pendentes
 
 <br/>
