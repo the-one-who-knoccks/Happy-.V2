@@ -93,6 +93,7 @@ export const Container = styled.label<ContainerProps>`
     top: 20%;
     width: 2px;
     height: 60%;
+    border: 1px;
     background: #37C77F;
     transform: scale(0, 0);
     transition: transform 0.3s ease-out;

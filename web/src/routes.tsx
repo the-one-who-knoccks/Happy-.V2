@@ -2,7 +2,7 @@ import React from 'react';
 import { useLocation, Switch, Route } from 'react-router-dom';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
 
-import Landing from '../src/pages/Landing/index';
+// import Landing from '../src/pages/Landing/index';
 import OrphanagesMap from '../src/pages/OrphanagesMap/index';
 import Orphanages from '../src/pages/Orphanages/index';
 import CreateOrphanages from '../src/pages/CreateOrphanages/index';

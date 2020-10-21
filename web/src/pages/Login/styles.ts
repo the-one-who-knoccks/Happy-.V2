@@ -21,21 +21,33 @@ export const BackgroundImage = styled.div`
   background-size: contain;
   background-position: 50rem;
 
+
+
+  > .logoimg {
+    margin-bottom: 550px;
+    margin-left: 50px;
+
+  }
+
+
   main {
     max-width: 350px;
     animation: mainAnimation 5s linear 0s infinite alternate;
   }
 
+
   > main h1 {
     font-size: 76px;
     font-weight: 900;
-    line-height: 70px;
+    line-height: 60px;
+
   }
 
   > main p {
     margin-top: 40px;
     font-size: 24px;
-    line-height: 34px;
+    line-height: 24px;
+
   }
 
   > img {
@@ -43,6 +55,8 @@ export const BackgroundImage = styled.div`
     animation: myFirst 0.8s linear 0s infinite alternate;
   }
 `;
+
+
 
 export const ContentWrapper = styled.div`
   display: flex;
@@ -109,7 +123,7 @@ export const Options = styled.div`
 export const BottomItems = styled.div`
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   margin: auto 0 30px;
   width: 50%;
 
@@ -122,6 +136,7 @@ export const BottomItems = styled.div`
       width: fit-content;
       transition: color 0.3s ease;
       color: #7159c1;
+      margin-left: 10px;
 
       &:hover {
         color: #715990;
