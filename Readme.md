@@ -1,5 +1,5 @@
 # NLW3-Master
-
+ 
 
 <h1 align="center">
   <img alt="Fastfeet" title="Fastfeet" src="https://ik.imagekit.io/hld13bjzb1/logo_blDamrxsf.svg" width="300px" />
@@ -32,14 +32,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 😁 A Happy é uma plataforma que ajuda pessoas a sem conectarem com orfanatos próximos e assim permitindo ao usuário, agendar uma visita e fazer o dia de uma criança mais feliz. Aplicação está sendo criada durante a semana Next Level Week 3 da Rocektseat.💜
 
 ## 👷 Melhorias (Em andamento) 
-<br/>
 
-### Criação de usuário no banco de dados ✅ 
-### Autenticação do usuário e hash de senha ✅
-### Tela de Cadastro versão web ✅ 
-### Tela de login versão web ✅ 
-### Tela de recuperação de Senha 
-### Cadastro de orfanatos pendentes
+
 
 <br/>
 
