@@ -3,7 +3,8 @@ import multer from 'multer';
 
 import uploadConfig from './config/upload';
 import OrphangesController from './controllers/OrphanagesController';
-import UserController, { login } from './controllers/UserController';
+import UserController from './controllers/UserController';
+import SessionController from './controllers/SessionController';
 
 import { auth } from './middlewares/auth';
 
@@ -12,7 +13,7 @@ const upload = multer(uploadConfig);
 
 routes.post('/users', UserController.create);
 
-routes.post('/session', login);
+routes.post('/session', SessionController);
 routes.use(auth);
 routes.get('/orphanages', OrphangesController.index);
 routes.get('/orphanages/:id', OrphangesController.show);
