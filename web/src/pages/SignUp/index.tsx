@@ -2,12 +2,14 @@ import React, { useRef, useState, useCallback } from 'react';
 import { FormHandles } from '@unform/core';
 import { useHistory } from 'react-router-dom';
 import * as Yup from 'yup';
-import { Container, BackgroundImage, ContentWrapper, Form, BottomItems, Location } from './styles';
+import { Container, BackgroundImage, ContentWrapper, Form, BottomItems } from './styles';
 import logoImg from '../../images/logo.svg';
 
 import Input from '../../components/Input/index';
 import Button from '../../components/Button/index';
 import api from '../../services/api';
+import { useToast } from '../../hooks/toast';
+import getValidationErrors from '../../utils/getValidationErrors';
 
 
 interface RegisterFormData {
@@ -21,6 +23,7 @@ interface RegisterFormData {
 const SignUp: React.FC = () => {
   const [registerRequestLoading, setRegisterRequestLoading] = useState(false);
   const formRef = useRef<FormHandles | null>(null);
+  const { addToast } = useToast();
   const history = useHistory();
 
   const handleSubmit = useCallback(
@@ -42,7 +45,7 @@ const SignUp: React.FC = () => {
           email: Yup.string()
             .required('Email obrigatório')
             .email('Digite um Email valido'),
-          whatsapp: Yup.string().required(),
+          whatsapp: Yup.string().required('Número de whatsapp é obrigatório'),
           password: Yup.string().min(6, 'No mínmo 6 dígitos'),
         });
 
@@ -59,15 +62,36 @@ const SignUp: React.FC = () => {
 
         setRegisterRequestLoading(false);
 
-        history.push('/login');
+        history.push('/');
       } catch (error) {
         setRegisterRequestLoading(false);
+        if (error instanceof Yup.ValidationError) {
+          const errors = getValidationErrors(error);
+          formRef.current?.setErrors(errors);
+          return;
+        }
 
+        const { message: errorMessage } = error.response.data;
 
+        if (errorMessage === 'Email already taken') {
+          addToast({
+            title: 'Algo deu errado',
+            description:
+              'Algo deu errado durante a criação de sua conta, tente novamente',
+            type: 'success',
+          });
+          return;
+        }
 
+        addToast({
+          title: 'E-mail já em uso',
+          description:
+            'O E-mail que você inseriu já está em uso, tente novamente com um outro email',
+          type: 'error',
+        });
       }
     },
-    [history, registerRequestLoading],
+    [history, addToast, registerRequestLoading],
   );
   return (
     <Container>
@@ -77,10 +101,10 @@ const SignUp: React.FC = () => {
           <h1>Leve felicidade para o mundo</h1>
           <p>Visite orfanatos e mude o dia de muitas crianças. </p>
         </main>
-        <Location>
+        {/* <Location>
           <strong>Volta Grande</strong>
           <span>Minas Gerais</span>
-        </Location>
+        </Location> */}
       </BackgroundImage>
       <ContentWrapper>
 
