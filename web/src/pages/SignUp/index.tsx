@@ -62,7 +62,15 @@ const SignUp: React.FC = () => {
 
         setRegisterRequestLoading(false);
 
-        history.push('/');
+        setTimeout(() => {history.push('/');}, 3000);
+
+        addToast({
+          title: 'Muito obrigado',
+          description:
+            'O seu cadastro foi realizado com sucesso.',
+          type: 'success',
+        });
+
       } catch (error) {
         setRegisterRequestLoading(false);
         if (error instanceof Yup.ValidationError) {
@@ -74,12 +82,7 @@ const SignUp: React.FC = () => {
         const { message: errorMessage } = error.response.data;
 
         if (errorMessage === 'Email already taken') {
-          addToast({
-            title: 'Algo deu errado',
-            description:
-              'Algo deu errado durante a criação de sua conta, tente novamente',
-            type: 'success',
-          });
+
           return;
         }
 
@@ -90,6 +93,7 @@ const SignUp: React.FC = () => {
           type: 'error',
         });
       }
+
     },
     [history, addToast, registerRequestLoading],
   );
