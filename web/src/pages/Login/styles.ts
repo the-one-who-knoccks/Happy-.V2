@@ -16,17 +16,17 @@ export const BackgroundImage = styled.div`
   flex: 1;
   display: flex;
   align-items: center;
-  height: 100%;
+  height: 100vh;
   background: url(${ImageBackground}) #7159c1 no-repeat center;
-  background-size: contain;
-  background-position: 50rem;
+  background-size: initial;
+  background-position: 60rem;
 
 
 
   > .logoimg {
     margin-bottom: 550px;
-    margin-left: 50px;
-
+    padding-left: 350px;
+    margin-right: -240px;
   }
 
 
@@ -37,15 +37,17 @@ export const BackgroundImage = styled.div`
 
 
   > main h1 {
-    font-size: 76px;
-    font-weight: 900;
-    line-height: 60px;
+    font-size: 74px;
+    font-weight: 800;
+    line-height: 65px;
+    margin-top: 300px;
 
   }
 
   > main p {
     margin-top: 40px;
     font-size: 24px;
+    font-weight: 600;
     line-height: 24px;
 
   }
