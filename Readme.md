@@ -17,7 +17,7 @@
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=15C3D6&labelColor=000000">
   <img alt="Made by" src="https://img.shields.io/static/v1?label=made_by&message=Rocketseat&color=15C3D6&labelColor=000000">
   <img alt="Made by" src="https://img.shields.io/static/v1?label=Node&message=v12.18.14&color=15C3D6&labelColor=000000">
-  <img alt="Made by" src="https://img.shields.io/static/v1?label=Project&message=v1.0&color=15C3D6&labelColor=000000">
+  <img alt="Made by" src="https://img.shields.io/static/v1?label=Project&message=v2.0&color=15C3D6&labelColor=000000">
  
 </p>
 
