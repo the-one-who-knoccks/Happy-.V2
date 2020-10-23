@@ -17,7 +17,7 @@ export const BackgroundImage = styled.div`
   display: flex;
   align-items: center;
   height: 100vh;
-  background: url(${ImageBackground}) #7159c1 no-repeat center;
+  background: url(${ImageBackground}) #7159f1 no-repeat center;
   background-size: initial;
   background-position: 60rem;
 

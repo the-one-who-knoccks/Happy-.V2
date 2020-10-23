@@ -57,6 +57,14 @@ const Login: React.FC = () => {
 
         setTimeout(() => {history.push('/app');}, 3000);
 
+        addToast({
+          title: 'Login realizado com sucesso',
+          description:
+            'Seja bem-vindo!.',
+          type: 'success',
+        });
+
+
 
       } catch (err) {
         setLoginRequestLoading(false);
