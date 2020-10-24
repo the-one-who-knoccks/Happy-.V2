@@ -70,10 +70,8 @@ export default function CreateOrphanage() {
 
     await api.post('orphanages', data);
 
-    // eslint-disable-next-line no-alert
-    alert('Cadastro realizado com sucesso!');
 
-    history.push('/app');
+    history.push('/completed-registration');
   };
 
   return (
