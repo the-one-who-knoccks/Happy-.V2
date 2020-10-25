@@ -2,7 +2,8 @@ import React, { useRef, useState, useCallback } from 'react';
 import { FormHandles } from '@unform/core';
 import { useHistory } from 'react-router-dom';
 import * as Yup from 'yup';
-import { Container, BackgroundImage, ContentWrapper, Form, BottomItems } from './styles';
+import { Container, BackButton, BackgroundImage, ContentWrapper, Form, BottomItems } from './styles';
+import { FiArrowLeft } from 'react-icons/fi';
 import logoImg from '../../images/logo.svg';
 
 import Input from '../../components/Input/index';
@@ -62,7 +63,7 @@ const SignUp: React.FC = () => {
 
         setRegisterRequestLoading(false);
 
-        setTimeout(() => {history.push('/');}, 3000);
+        setTimeout(() => { history.push('/'); }, 3000);
 
         addToast({
           title: 'Muito obrigado',
@@ -99,8 +100,11 @@ const SignUp: React.FC = () => {
   );
   return (
     <Container>
+      <BackButton  to="/">
+        <FiArrowLeft size={26} color="#15C3D6" />
+      </BackButton >
       <BackgroundImage>
-      <img src={logoImg} className="logoimg" alt="Happy" />
+        <img src={logoImg} className="logoimg" alt="Happy" />
         <main>
           <h1>Leve felicidade para o mundo</h1>
           <p>Visite orfanatos e mude o dia de muitas crianças. </p>
