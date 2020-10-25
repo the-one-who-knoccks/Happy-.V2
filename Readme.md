@@ -1,20 +1,25 @@
-# NLW3-Master
-
-
-<h1 align="center">
-  <img alt="Fastfeet" title="Fastfeet" src="https://ik.imagekit.io/hld13bjzb1/logo_blDamrxsf.svg" width="300px" />
-</h1>      
-
-<p align="center">
+# NLW3-Master .v2
+ 
+ 
+<h1 align="center">  
+  <img alt="Happy" title="Happy" src="https://ik.imagekit.io/hld13bjzb1/logo_blDamrxsf.svg" width="300px" />
+</h1>           
+   
+<p align="center"> 
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
-</p>
-   
-<p align="center"> 
+</p>  
+     
+ 
+<p align="center">      
 
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=15C3D6&labelColor=000000">
-</p>
+  <img alt="Made by" src="https://img.shields.io/static/v1?label=made_by&message=Rocketseat&color=15C3D6&labelColor=000000">
+  <img alt="Made by" src="https://img.shields.io/static/v1?label=Node&message=v12.18.14&color=15C3D6&labelColor=000000">
+  <img alt="Made by" src="https://img.shields.io/static/v1?label=Project&message=v2.0&color=15C3D6&labelColor=000000">
+ 
+</p>  
 
 ## 🚀 Tecnologias
 
@@ -29,29 +34,24 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-😁 A Happy é uma plataforma que ajuda pessoas a sem conectarem com orfanatos próximos e assim permitindo ao usuário, agendar uma visita e fazer o dia de uma criança mais feliz. Aplicação está sendo criada durante a semana Next Level Week 3 da Rocektseat.💜
+😁 O Happy é uma plataforma que ajuda pessoas a sem conectarem com orfanatos próximos e assim permitindo ao usuário, agendar uma visita e fazer o dia de uma criança mais feliz. Aplicação está sendo criada durante a semana Next Level Week 3 da Rocektseat.💜
 
 ## 👷 Melhorias (Em andamento) 
-<br/>
 
-### Criação de usuário no banco de dados ✅ 
-### Autenticação do usuário e hash de senha ✅
-### Tela de Cadastro versão web ✅ 
-### Tela de login versão web ✅ 
-### Tela de recuperação de Senha 
-### Cadastro de orfanatos pendentes
+#### Criação de usuário no banco de dados :heavy_check_mark:
+#### Autenticação do usuário e hash de senha :heavy_check_mark:
+#### Tela de Cadastro versão web :heavy_check_mark:
+#### Tela de login versão web :heavy_check_mark:
+#### Tela de recuperação de Senha 
+#### Cadastro de orfanatos pendentes
 
-<br/>
-
-<div>
-  <img src="/preview/happy-preview.gif" alt="Happy Demo" height="485">
-</div>
 <br/>
 
 <div>
-  <img src="preview/Captura de tela de 2020-10-15 21-48-54.png" alt="Happy Demo" height="425">
+  <img src="https://ik.imagekit.io/hld13bjzb1/Captura_de_tela_de_2020-10-23_10-22-24_7XUv3cZpB.png" alt="Happy Demo" heigth="450">
 </div>
 <br/>
+
 
 ## Para testar a aplicação:
 
