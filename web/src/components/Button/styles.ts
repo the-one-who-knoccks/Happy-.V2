@@ -1,15 +1,21 @@
 import styled from 'styled-components';
 
 export const Container = styled.button`
-  width: 100%;
-  height: 56px;
+  width: 360px;
+  height: 64px;
   border: 0;
-  border-radius: 8px;
+  border-radius: 15px;
+  cursor: pointer;
 
-  /* transition: background 0.3s ease-in-out; */
+
   font-weight: 600;
   background: #37C77F;
   color: #FFF;
+
+  transition: background-color 0.2s;
+  &:hover {
+    background: #3BD689;
+  }
 `;
 
 export const LoadingContainer = styled.div`

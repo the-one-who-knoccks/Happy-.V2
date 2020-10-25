@@ -5,4 +5,6 @@ export const CheckboxContainer = styled.div`
   align-items: center;
   justify-content: space-around;
   min-width: 130px;
+
+
 `;

@@ -23,6 +23,7 @@ function Routes() {
           {/* <Route path="/" exact component={Landing} /> */}
           <Route component={Login} exact path="/"  />
           <Route component={SignUp} path="/register"   />
+          <Route component={CompletedRegistration} path="/completed-registration"   />
           <Route component={CompletedRegistration} path="/completed-registration" isPrivate  />
           <Route component={OrphanagesMap} path="/app" isPrivate />
           <Route component={CreateOrphanages} path="/orphanages/create" isPrivate  />

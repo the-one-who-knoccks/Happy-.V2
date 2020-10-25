@@ -111,7 +111,7 @@ const Login: React.FC = () => {
             <CheckBox name="rememberMe" type="checkbox" label="Lembrar-me" />
             <Link to="/forgot-password">Esqueci minha senha</Link>
           </Options>
-          <Button containerStyle={{ marginTop: 15 }}
+          <Button containerStyle={{ marginTop: 45 }}
           >
             Entrar
         </Button>
