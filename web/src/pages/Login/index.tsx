@@ -8,6 +8,7 @@ import getValidationErrors from '../../utils/getValidationErrors';
 import { Container, BackgroundImage, ContentWrapper, Form, Options, BottomItems } from './styles';
 
 
+
 import logoImg from '../../images/logo.svg';
 import Input from '../../components/Input/index';
 import Button from '../../components/Button/index';
@@ -122,7 +123,6 @@ const Login: React.FC = () => {
             Não tem conta?
             <Link to="/register">Cadastre-se</Link>
           </p>
-
         </BottomItems>
       </ContentWrapper>
     </Container>

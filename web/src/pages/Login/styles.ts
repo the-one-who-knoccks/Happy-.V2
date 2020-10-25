@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import { Form as UnformForm } from '@unform/web';
-
 import ImageBackground from '../../images/landing.svg';
 
 
@@ -8,6 +7,8 @@ export const Container = styled.div`
   display: flex;
   width: 100vw;
   height: 100vh;
+  background: #FFFFFF;
+
   /* background: linear-gradient(329.54deg, #7159c1 0%, #00c7c7 100%); */
 `;
 
@@ -153,3 +154,4 @@ export const BottomItems = styled.div`
     font-size: 14px;
   }
 `;
+

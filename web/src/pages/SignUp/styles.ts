@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { Form as UnformForm } from '@unform/web';
-
+import {Link} from 'react-router-dom';
 import ImageBackground from '../../images/landing.svg';
 
 
@@ -8,9 +8,34 @@ export const Container = styled.div`
   display: flex;
   width: 100vw;
   height: 100vh;
+  background: #FFF;
+
   /* background: linear-gradient(329.54deg, #7159c1 0%, #00c7c7 100%); */
 `;
 
+
+export const BackButton = styled(Link)`
+  position: absolute;
+  right: 40px;
+  top: 30px;
+  width: 48px;
+  height: 48px;
+  background: #EBF2F5;
+
+  cursor: pointer;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: 0.2s ease;
+
+  &:hover {
+    background: #D3E2E5;
+    border: 1px solid #000;
+  }
+
+`;
 
 export const BackgroundImage = styled.div`
   flex: 1;
@@ -121,6 +146,8 @@ export const Form = styled(UnformForm)`
   }
 `; */
 
+
+
 export const BottomItems = styled.div`
   display: flex;
   align-items: center;
@@ -149,3 +176,5 @@ export const BottomItems = styled.div`
     font-size: 14px;
   }
 `;
+
+
