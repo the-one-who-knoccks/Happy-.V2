@@ -44,12 +44,13 @@ export const Container = styled.label<ContainerProps>`
   cursor: text;
   flex-direction: column;
   justify-content: space-between;
-  border-radius: 8px;
-  width: 350px;
-  height: 72px;
+  border-radius: 15px;
+  width: 360px;
+  height: 67px;
   padding: 4px 12px;
   border: 1px solid;
   background: #D3E2E5;
+  margin-top: 20px;
 
   ${props =>
     props.hasError &&

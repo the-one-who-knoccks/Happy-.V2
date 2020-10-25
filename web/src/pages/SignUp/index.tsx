@@ -123,7 +123,7 @@ const SignUp: React.FC = () => {
 
           <Button
             loading={registerRequestLoading}
-            containerStyle={{ marginTop: 15 }}
+            containerStyle={{ marginTop: 45 }}
           >
             Cadastrar
         </Button>
