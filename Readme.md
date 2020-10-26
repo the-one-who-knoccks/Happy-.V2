@@ -47,10 +47,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 <br/>
 
-<div>
-  <img src="https://ik.imagekit.io/hld13bjzb1/Captura_de_tela_de_2020-10-23_10-22-24_7XUv3cZpB.png" alt="Happy Demo" heigth="450">
-</div>
-<br/>
 
 <div>
   <img src="/preview/happy-preview.gif" alt="Happy Demo" heigth="450">
