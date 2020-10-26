@@ -54,7 +54,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 
 <div>
-  <img src="https://ik.imagekit.io/hld13bjzb1/Peek-25-10-2020-23-27_pg9HLuV3T.gif?tr=w-1104,h-736,fo-auto" alt="Happy Demo">
+  <img src="https://ik.imagekit.io/hld13bjzb1/Peek-25-10-2020-23-27_pg9HLuV3T.gif?tr=w-1200,h-628,fo-auto" alt="Happy Demo">
 </div>
 <br/>
 
