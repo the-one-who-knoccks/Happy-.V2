@@ -68,7 +68,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
  ```bash
  # Clone o repositório com o comando 
-
+ 
   $ git clone https://github.com/the-one-who-knoccks/NLW2-Master
 
  ```
