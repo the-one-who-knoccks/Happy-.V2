@@ -1,9 +1,9 @@
-# NLW3-Master .v2
+# NLW3-Master .v2 
  
    
 <h1 align="center">  
   <img alt="Happy" title="Happy" src="https://ik.imagekit.io/hld13bjzb1/logo_blDamrxsf.svg" width="300px" />
-</h1>           
+</h1>            
      
 <p align="center">  
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
