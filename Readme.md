@@ -54,13 +54,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 <br/>
 
 
-<div>
-  <img src="https://ik.imagekit.io/hld13bjzb1/Peek-25-10-2020-23-27_pg9HLuV3T.gif?tr=w-1104,h-736,fo-auto" alt="Happy Demo">
-</div>
-<br/>
-
-
-
  
 ## Para testar a aplicação:
  
