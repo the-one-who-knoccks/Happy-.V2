@@ -47,7 +47,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 <br/>
 
-
+        
 <div>
   <img src="/preview/happy-preview.gif" alt="Happy Demo" heigth="450">
 </div>
