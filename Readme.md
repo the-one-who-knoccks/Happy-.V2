@@ -12,7 +12,7 @@
 </p>            
                                           
            
-<p align="center">                                   
+<p align="center">                                    
     
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=15C3D6&labelColor=000000">
   <img alt="Made by" src="https://img.shields.io/static/v1?label=made_by&message=Rocketseat&color=15C3D6&labelColor=000000">
@@ -32,7 +32,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Expo](https://expo.io/)
 - [Sqlite](https://www.sqlite.org/index.html)
   
-## 💻 Projeto          
+## 💻 Projeto           
 
 😁 O Happy é uma plataforma que ajuda pessoas a sem conectarem com orfanatos próximos e assim permitindo ao usuário, agendar uma visita e fazer o dia de uma criança mais feliz. Aplicação está sendo criada durante a semana Next Level Week 3 da Rocektseat.💜
 
