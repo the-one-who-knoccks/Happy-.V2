@@ -1,5 +1,5 @@
 # NLW3-Master .v2  
-                             
+                                
       
 <h1 align="center">      
   <img alt="Happy" title="Happy" src="https://ik.imagekit.io/hld13bjzb1/logo_blDamrxsf.svg" width="300px" />
@@ -47,7 +47,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 <br/>
 
-        
+         
 <div>
   <img src="/preview/happy-preview.gif" alt="Happy Demo" heigth="450">
 </div>
