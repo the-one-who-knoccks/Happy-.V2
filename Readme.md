@@ -2,7 +2,7 @@
                                 
         
 <h1 align="center">      
-  <img alt="Happy" title="Happy" src="https://ik.imagekit.io/hld13bjzb1/logo_blDamrxsf.svg" width="300px" />
+  <img alt="Happy" title="Happy" src="https://ik.imagekit.io/hld13bjzb1/logo_blDamrxsf.svg" width="300px" /> 
 </h1>             
          
 <p align="center">   
