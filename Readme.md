@@ -40,7 +40,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 #### Criação de usuário no banco de dados :heavy_check_mark:
 #### Autenticação do usuário e hash de senha :heavy_check_mark:
-#### Tela de Cadastro versão web :heavy_check_mark:
+#### Tela de Cadastro versão web :heavy_check_mark: 
 #### Tela de login versão web :heavy_check_mark:
 #### Tela de recuperação de Senha 
 #### Cadastro de orfanatos pendentes
