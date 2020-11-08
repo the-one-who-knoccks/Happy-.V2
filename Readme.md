@@ -36,7 +36,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 😁 O Happy é uma plataforma que ajuda pessoas a sem conectarem com orfanatos próximos e assim permitindo ao usuário, agendar uma visita e fazer o dia de uma criança mais feliz. Aplicação está sendo criada durante a semana Next Level Week 3 da Rocektseat.💜
 
-## 👷 Melhorias (Em andamento) 
+## 👷 Melhorias (Em andamento)  
 
 #### Criação de usuário no banco de dados :heavy_check_mark:
 #### Autenticação do usuário e hash de senha :heavy_check_mark:
