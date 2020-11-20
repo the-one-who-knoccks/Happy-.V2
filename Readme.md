@@ -10,7 +10,7 @@
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;  
   <a href="#memo-licença">Licença</a>      
 </p>                      
-                                                           
+                                                            
                           
 <p align="center">                                             
            
@@ -21,7 +21,7 @@
           
 </p>           
            
-## 🚀 Tecnologias                    
+## 🚀 Tecnologias                     
     
 Esse projeto foi desenvolvido com as seguintes tecnologias:
   
