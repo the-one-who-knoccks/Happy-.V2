@@ -31,7 +31,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [TypeScript](https://www.typescriptlang.org/)
 - [Expo](https://expo.io/)
 - [Sqlite](https://www.sqlite.org/index.html)  
-  
+   
 ## 💻 Projeto           
 
 😁 O Happy é uma plataforma que ajuda pessoas a sem conectarem com orfanatos próximos e assim permitindo ao usuário, agendar uma visita e fazer o dia de uma criança mais feliz. Aplicação está sendo criada durante a semana Next Level Week 3 da Rocektseat.💜
@@ -44,7 +44,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 #### Tela de login versão web :heavy_check_mark:
 #### Tela de recuperação de Senha 
 #### Cadastro de orfanatos pendentes
- 
+  
 <br/>
 
           
