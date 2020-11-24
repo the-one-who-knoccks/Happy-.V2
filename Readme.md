@@ -25,7 +25,7 @@
       
 Esse projeto foi desenvolvido com as seguintes tecnologias:
   
-- [Node.js](https://nodejs.org/en/)
+- [Node.js](https://nodejs.org/en/)  
 - [React](https://reactjs.org)   
 - [React Native](https://facebook.github.io/react-native/) 
 - [TypeScript](https://www.typescriptlang.org/)
@@ -37,7 +37,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 😁 O Happy é uma plataforma que ajuda pessoas a sem conectarem com orfanatos próximos e assim permitindo ao usuário, agendar uma visita e fazer o dia de uma criança mais feliz. Aplicação está sendo criada durante a semana Next Level Week 3 da Rocektseat.💜
 
 ## 👷 Melhorias (Em andamento)  
-
+  
 #### Criação de usuário no banco de dados :heavy_check_mark:
 #### Autenticação do usuário e hash de senha :heavy_check_mark:
 #### Tela de Cadastro versão web :heavy_check_mark: 
