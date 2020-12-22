@@ -30,7 +30,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [React Native](https://facebook.github.io/react-native/) 
 - [TypeScript](https://www.typescriptlang.org/)  
 - [Expo](https://expo.io/)   
-- [Sqlite](https://www.sqlite.org/index.html)    
+- [Sqlite](https://www.sqlite.org/index.html)     
    
 ## 💻 Projeto            
 
