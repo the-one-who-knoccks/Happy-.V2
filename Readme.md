@@ -20,7 +20,7 @@
   <img alt="Made by" src="https://img.shields.io/static/v1?label=Project&message=v2.0&color=15C3D6&labelColor=000000">
              
 </p>                   
-                  
+                   
 ## 🚀 Tecnologias                             
        
 Esse projeto foi desenvolvido com as seguintes tecnologias:
